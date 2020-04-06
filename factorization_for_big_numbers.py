@@ -80,7 +80,3 @@ for i in A:
         chk,divided = frac(divided,j)
         if chk > Divisor[j]:Divisor[j] = chk
     Divisor[divided] = max(1,Divisor[divided])
-LCM=ModInt(1)
-for i in range(2,1000000):
-    LCM*=i**ModInt(Divisor[i])
-print(LCM)
