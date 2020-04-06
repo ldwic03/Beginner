@@ -1,3 +1,3 @@
 # Beginner
 Test repository
-Just made for learning to how to use github.
+Created for learning to how to use github.
